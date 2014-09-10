@@ -107,6 +107,6 @@ tidy <- ddply(combindData, .(subject, activity),
               function(x) colMeans(x[,1:60]))
 
 # Write tidy dataset as csv
-write.csv(tidy, "UCI_HAR_tidy_data.csv", row.names=FALSE)
+write.table(tidy, "UCI_HAR_tidy_data.csv", row.names=FALSE)
 
 message("Tidy data file Complete!")
