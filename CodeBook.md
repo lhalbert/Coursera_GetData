@@ -28,4 +28,4 @@ The process begins with reading all of the training and test data and combining 
 
 Activity labels are then replaced with descriptive activity names as defined in the provided "activity_labesl.txt" in the original UCI dataset.
 
-The final process creates a tidy dataset with the average of each variable and each subject (provide as "UCI_HDR_tidy_data.txt").
+The final process creates a tidy dataset with the average of each variable and each subject (provide as "UCI_HAR_tidy_data.txt").
